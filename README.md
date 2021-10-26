@@ -3,7 +3,7 @@ My initial design collection for side projects
 
 ## Project setup
 ```
-cd /web yarn
+cd /panel yarn
 ```
 
 ### Compiles and hot-reloads for development

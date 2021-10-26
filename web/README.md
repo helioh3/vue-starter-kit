@@ -1,9 +1,8 @@
-# vue-starter-kit
-My initial design collection for side projects
+# app
 
 ## Project setup
 ```
-cd /web yarn
+yarn install
 ```
 
 ### Compiles and hot-reloads for development
@@ -19,3 +18,7 @@ yarn build
 ### Lints and fixes files
 ```
 yarn lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).

@@ -185,7 +185,8 @@
 
       </div>
 
-      <div class="btn-group mt-4">
+      
+        <div class="btn-group mt-4 flex justify-center">
         <button class="btn">Anterior</button> 
         <button class="btn">1</button> 
         <button class="btn btn-active">2</button> 
@@ -193,6 +194,7 @@
         <button class="btn">4</button> 
         <button class="btn">Proximo</button>
       </div>
+      
     </div>
    
  </div>

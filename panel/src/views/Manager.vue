@@ -14,7 +14,7 @@
           <RouterLink class="p-0" :to="{name: 'post'}" :class="{'bg-gray-100 ': $route.name === 'post',}">Prefeitos</RouterLink>
         </li>
         <li>
-          <RouterLink :to="{name: 'post'}" :class="{'bg-gray-100 ': $route.name === 'post',}">Secretarias Municipais </RouterLink>
+          <RouterLink :to="{name: 'post'}" :class="{'bg-gray-100 ': $route.name === 'post',}">Secretários </RouterLink>
         </li>
         
       </ul>

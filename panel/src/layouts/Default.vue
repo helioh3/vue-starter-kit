@@ -1,31 +1,26 @@
 <template>
-    <div>
-        
-        <TheHeader />
-        <Sidebar />
+  <div class="flex flex-row h-screen bg-gray-100">
+    <VsMenu/>
 
-        <div class="px-3 py-10 md:px-10">
-            <RouterView />
-        </div>
-    </div>
+    <RouterView/>
+  </div>
 </template>
 
 <script>
-    import TheHeader from '@/components/Partials/TheHeader';
-    import Sidebar from '@/components/Partials/Sidebar';
 
-    export default {
-        name: 'Default',
+import VsMenu from '@/components/Sidebar/VsMenu';
 
-        components: {
-            TheHeader, Sidebar
-        },
+export default {
+  name: "Default",
 
-        data() {
-            return {
-            };
-        },
+  components: {
+    VsMenu
+  },
 
-        methods: {},
-    };
+  data() {
+    return {};
+  },
+
+  methods: {},
+};
 </script>

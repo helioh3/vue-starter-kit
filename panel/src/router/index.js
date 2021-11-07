@@ -4,20 +4,28 @@ import VueRouter from 'vue-router'
 import LayoutAuth from '@/layouts/Auth'
 import LayoutDefault from '@/layouts/Default';
 
-
 import Home from '@/views/Home'
-import Profile from '@/views/Profile';
+import Post from '@/views/Post'
+// import Profile from '@/views/Profile';
 
 
 Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/painel', component: LayoutDefault,
+    path: '/', component: LayoutDefault,
     children: [
       { path: '', name: 'index', component: Home },
-      { path: 'perfil', name: 'profile', component: Profile },
-    ]
+      // { path: 'perfil', name: 'profile', component: Profile },
+    ],
+  },
+
+  {
+    path: '/noticias', component: LayoutDefault,
+    children: [
+      { path: '', name: 'post', component: Post },
+      // { path: 'perfil', name: 'profile', component: Profile },
+    ],
   },
 
 ]

@@ -8,17 +8,17 @@
       <!-- main -->
       <div class="w-full shadow stats">
         <div class="stat place-items-center place-content-center">
-          <div class="stat-title">Downloads</div> 
+          <div class="stat-title">Postagens</div> 
           <div class="stat-value">310M</div> 
           <div class="stat-desc">Jan 1st - Feb 1st</div>
         </div> 
         <div class="stat place-items-center place-content-center">
-          <div class="stat-title">New Users</div> 
+          <div class="stat-title">Usuarios Novos</div> 
           <div class="stat-value text-success">4,200</div> 
           <div class="stat-desc text-success">↗︎ 400 (22%)</div>
         </div> 
         <div class="stat place-items-center place-content-center">
-          <div class="stat-title">New Registers</div> 
+          <div class="stat-title">Categorias</div> 
           <div class="stat-value text-error">1,200</div> 
           <div class="stat-desc text-error">↘︎ 90 (14%)</div>
         </div>

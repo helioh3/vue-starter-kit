@@ -20,5 +20,8 @@ module.exports = {
       'forest',
       'synthwave'
     ],
+    daisyui: {
+      styled: false,
+    },
   },
 }

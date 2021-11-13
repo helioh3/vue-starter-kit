@@ -97,7 +97,7 @@
 </template>
 <script>
 // import TodoCard from '@/components/Todos/TodoCard';
-import VsSubmenu from '@/components/Sidebar/VsSubmenu';
+import VsSubmenu from '@/modules/Sidebar/VsSubmenu';
 // import VSMain from '@/components/Main/VSMain';
 
 export default {

@@ -4,6 +4,7 @@ import VueRouter from 'vue-router'
 import LayoutAuth from '@/layouts/Auth'
 import LayoutDefault from '@/layouts/Default';
 
+
 import Home from '@/views/Home'
 
 Vue.use(VueRouter)
@@ -12,7 +13,7 @@ const routes = [
   {
     path: '/painel', component: LayoutDefault,
     children: [
-      { path: '', name: 'index', component: Home },
+      { path: '', name: 'home', component: Home },
       // { path: 'perfil', name: 'profile', component: Profile },
     ],
   },

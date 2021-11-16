@@ -8,9 +8,9 @@
       </button>
     </div> 
     <div class="flex-1 hidden px-2 mx-2 lg:flex">
-      <span class="text-lg font-bold">
+      <!-- <span class="text-lg font-bold">
         e-Pref
-      </span>
+      </span> -->
     </div> 
     <div class="flex-1 lg:flex-none">
       <div class="form-control">

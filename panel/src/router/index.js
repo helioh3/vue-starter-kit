@@ -6,6 +6,8 @@ import LayoutDefault from '@/layouts/Default';
 
 
 import Home from '@/views/Home'
+import Category from '@/views/Category'
+import Secretary from '@/views/Secretary'
 
 Vue.use(VueRouter)
 
@@ -14,6 +16,20 @@ const routes = [
     path: '/painel', component: LayoutDefault,
     children: [
       { path: '', name: 'home', component: Home },
+      // { path: 'perfil', name: 'profile', component: Profile },
+    ],
+  },
+  {
+    path: '/painel/categorias', component: LayoutDefault,
+    children: [
+      { path: '', name: 'category', component: Category },
+      // { path: 'perfil', name: 'profile', component: Profile },
+    ],
+  },
+  {
+    path: '/painel/secretarias', component: LayoutDefault,
+    children: [
+      { path: '', name: 'secretary', component: Secretary },
       // { path: 'perfil', name: 'profile', component: Profile },
     ],
   },
